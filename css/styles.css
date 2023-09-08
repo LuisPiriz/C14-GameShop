@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #222222;
+    --secondary-color: #D01418;
+    --third-color: #f3f3f3;
+    --background-card: #fff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--third-color);
+}
+.flex-container {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+}
+.br-5 {
+    border-radius: 5px;
+}
+.color-red {
+    color: var(--secondary-color);
+}
+.color-green {
+    color: #619D00;
+    font-size: 0.8rem;
+}
+.color-white {
+    color: white;
+}
+.thin {
+    font-weight: lighter;
+}
+header {
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: 40px;
+}
+.logo img{
+    margin-right: 20px;
+}
+header ul {
+    margin-right: 40px;
+}
+header ul li {
+    margin: 0 10px;
+}
+header ul li a{
+    text-decoration: none;
+}
+header nav i {
+    font-size: 1.6rem;
+}
+.bckg-img-container {
+    height: 512px;
+    background-image: url("../img/bckgimg.png");
+    background-size: cover;
+}
+section button {
+    padding: 18px 65px;
+    background-color: var(--secondary-color);
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+main h2 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.card {
+    background-color: var(--background-card);
+    padding: 24px 10px;
+    width: 30%;
+    height: 322px;
+    margin-bottom: 40px;
+}
+.card img {
+    width: 129px;
+}
+.card hr {
+    width: 100%;
+    margin: 20px 0;
+}
+.card div {
+    width: 85%;
+    height: 100%;
+    justify-content: space-between;
+}
+.card h4 {
+    font-size: 1.3rem;
+}
+main section:last-child div div {
+    position: relative;
+}
+.last-section-h4 {
+    position: absolute;
+    right: 15px;
+    top: 46%;
+    color: white;
+    font-size: 1.5rem;
+}
+footer {
+    background-color: #222222;
+    padding: 50px;
+    margin-top: 80px;
+}
+footer p {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+footer i {
+    font-size: 2rem;
+}
+footer i:nth-child(1) {
+    color: #14AED0;
+}
+footer i:nth-child(2) {
+    color: #1476D0;
+}
+footer i:nth-child(3) {
+    color: #CE0CFF;
+}
